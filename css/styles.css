@@ -1,0 +1,78 @@
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+}
+
+h1,
+h2 {
+    color: #333;
+}
+
+form,
+.expense-filter {
+    margin-bottom: 20px;
+}
+
+fieldset {
+    margin-top: 10px;
+}
+
+button {
+    background-color: #28a745;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+#expense-list {
+    display: flex;
+    justify-content: space-around;
+}
+
+.expense-category-dropdown {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #f9f9f9;
+}
+
+.expense-category-dropdown legend {
+    font-weight: bold;
+    color: #333;
+    padding: 0 5px;
+}
+
+.expense-category-dropdown select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.expense-category-dropdown select:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(76, 175, 80, 0.5);
+}
+
+.task {
+    border: 1px solid rgba(0,0,0,.5);
+}
+
+.task-board__list {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
